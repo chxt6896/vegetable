@@ -1,0 +1,20 @@
+<!DOCTYPE struts PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="Vegetable" extends="struts-default" namespace="/">
+		<action name="">
+			<result>/page/index.jsp</result>
+		</action>
+		<action name="vegetable" class="action.VegetableAction">
+			<result name="success">/page/call.jsp?opt=1</result>
+			<result name="hate">/page/call.jsp?opt=2</result>
+			<result name="like">/page/call.jsp?opt=3</result>
+			<result name="error"></result>
+		</action>
+		<action name="vegetableupdate" class="action.VegetableUpdateAction">
+			<result name="success">/page/single.jsp?opt=4</result>
+			<result name="error">/page/single.jsp?opt=5</result>
+		</action>
+	</package>
+</struts>

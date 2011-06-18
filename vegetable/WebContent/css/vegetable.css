@@ -1,0 +1,181 @@
+/* CSS Document */
+body,textarea{
+	font-family:"Microsoft YaHei","Arial","SimSun";
+	font-size:10px;	
+}
+html, body {
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+}
+img{
+	border:0;}
+textarea{
+	resize:none;
+	border-radius:6px;
+	font-size:12px;	
+	color:gray;
+	border: 2px solid; 
+	border-color: D7D7D7;}
+.align-center{
+	margin:0 auto;		
+	width:640px;
+	background-image:url(../imgs/bg1.png);}
+.center{
+	height:450px;
+	width:640px;
+	background-image:url(../imgs/center12.png);}
+.center1{
+	height:450px;
+	width:640px;
+	background-image:url(../imgs/center121.png);}
+.head{
+	margin:0 auto;
+	background-image:url(../imgs/head.png);
+	width:640px;
+	height:170px;}
+#main{
+	margin:0 auto;
+	width:640px;}
+#main #left{
+	position:relative;
+	float:left;
+	width:64px;
+	height:120px;
+	padding-top:204px;
+	padding-left:10px;}
+#main #center{
+	position:relative;
+	float:left;
+	width:492px;
+	height:365px;
+	padding-top:85px;}
+#main #right{
+	position:relative;
+	float:right;
+	width:63px;
+	height:120px;
+	padding-top:204px;
+	padding-right:10px;}
+#cleanfloat{
+	height:0;
+	line-height:0;
+	font-size:1px;
+	clear:both;
+	overflow:hidden;
+	margin-top:-1px;}
+#main1{
+	width:640.5px;}
+#main1 #one{
+	background-image:url(../imgs/bg1.png);
+	position:relative;
+	float:left;
+	width:240px;
+	height:120px;}
+#main1 #two{
+	background-image:url(../imgs/bg1.png);
+	position:relative;
+	float:left;
+	width:160px;
+	height:120px;}
+#main1 #three{
+	background-image:url(../imgs/bg1.png);
+	position:relative;
+	float:right;
+	width:240px;
+	height:120px;}
+.zi{
+	font-family:"Microsoft YaHei","Arial","SimSun";
+	color:maroon;
+	text-align:center;
+	font-size:12px;
+	padding-bottom:20px;
+	padding-top:15px;}
+
+a:link {color:maroon; text-decoration: none}
+a:active {color:maroon; text-decoration: underline}
+a:visited {color:maroon; text-decoration: none}
+a:hover {color:maroon; text-decoration: underline;position:relative;left:1px;top:1px}
+
+.mingpian{
+	width:492px;
+	height:340px;
+	padding-top:105px;
+	padding-left:74px;
+	padding-right:83px;}
+.im{
+	
+	padding-left:5px;
+	color:purple;
+	font-size:12px;}
+.jianju{
+	padding-bottom:13px !important;padding-bottom:10px;;}
+	
+.mypng img {
+	azimuth: expression(
+	this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "../imgs/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);
+}
+#button_888{
+	width:142px;  
+    height:32px;  
+    border:0px;
+    overflow:hidden;  
+    text-indent:-9999px;  
+    text-transform:capitalize;
+    background:url(../imgs/sinabt.gif);  
+   	cursor:pointer;
+}
+#button_999{
+	width:142px;  
+    height:32px;  
+    border:0px;
+    overflow:hidden;  
+    text-indent:-9999px;  
+    text-transform:capitalize;
+    background:url(../imgs/sucbt.gif);  
+    border-radius:4px;
+   	cursor:pointer;
+}
+#button_1000{
+	width:142px;  
+    height:32px;  
+    border:0px;
+    overflow:hidden;  
+    text-indent:-9999px;  
+    text-transform:capitalize;
+    background:url(../imgs/failbt.gif);  
+    border-radius:4px;
+   	cursor:pointer;
+}
+#tu{
+	position:relative;
+	float:left;
+	width:142px;
+	height:32px;
+	padding-left:210px;}	
+#xianzi{
+	position:relative;
+	float:right;
+	width:100px;
+	height:32px;
+	padding-right:20px;
+	font-family:"Microsoft YaHei","Arial","SimSun";
+	color:#808080;}
+#word{
+	font-family:Constantia,Georgia;
+	font-size:30px;}
+#totalSecond{
+	font-family:Constantia,Georgia;
+	color:purple;
+	font-size:20px;	
+	text-align: center}
+.remain3{
+	font-family:"Microsoft YaHei","Arial","SimSun";
+	color:maroon;
+	font-size:15px;	
+	text-align:center;}
